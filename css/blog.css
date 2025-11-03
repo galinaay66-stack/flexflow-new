@@ -1,0 +1,120 @@
+.hero-section {
+    padding-top: var(--spacing-4xl);
+}
+
+
+.hero-section__title {
+    display: flex;
+    justify-content: center;
+    color: var(--color-text-dark);
+    font-size: var(--text-3xl);
+    font-weight: var(--font-medium);
+    line-height: var(--line-height-3xl);
+    padding-bottom: var(--spacing-sm);
+}
+
+.hero-section__subtitle {
+    display: flex;
+    justify-content: center;
+    color: var(--color-secondary);
+    font-size: var(--text-base);
+    line-height: var(--line-height-base);
+    padding-bottom: var(--spacing-lg);
+}
+
+.hero-section__actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: var(--spacing-base);
+    padding: var(--spacing-base);
+}
+
+/* Posts */
+
+.posts {
+    padding: var(--spacing-4xl) 190px;
+}
+
+.posts-content {
+    display: flex;
+    flex-direction: row;
+    gap: var(--spacing-2xl);
+}
+
+.posts-content__box {
+    max-width: 510px;
+}
+
+.posts-content__images {
+    max-width: 100%;
+    height: 260px;
+    border-radius: var(--border-radius-mg);
+    object-fit: cover;
+    padding-bottom: var(--spacing-base);
+}
+
+.button--posts {
+    border: none;
+    background-color: var(--color-white);
+    color: var(--color-primary);
+    padding-bottom: var(--spacing-base);
+}
+
+.posts-content__title {
+    color: var(--color-text-dark);
+    font-size: var(--text-lg);
+    font-weight: var(--font-medium);
+    line-height: var(--line-height-lg);
+    padding-bottom: var(--spacing-base);
+}
+
+.posts-content__description {
+    font-size: var(--text-base);
+    line-height: var(--line-height-base);
+    color: var(--color-secondary);
+    padding-bottom: var(--spacing-base);
+}
+
+.posts-content__date {
+    font-size: var(--text-base);
+    line-height: var(--line-height-base);
+    color: var(--color-primary);
+}
+
+.box {
+    padding-bottom: var(--spacing-2xl);
+}
+
+@media (max-width: 890px) {
+
+    .hero-section {
+        padding: var(--spacing-xl) var(--line-height-base);
+    }
+
+    .hero-section__title {
+        font-size: var(--text-2xl);
+        font-weight: var(--font-medium);
+        line-height: var(--line-height-2xl);
+    }
+
+    .hero-section__subtitle {
+        text-align: center;
+    }
+
+    .hero-section__actions {
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .posts {
+        padding: var(--spacing-xl) var(--spacing-base);
+    }
+
+    .posts-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
