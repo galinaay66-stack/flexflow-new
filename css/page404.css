@@ -37,7 +37,14 @@
     justify-content: center;
 }
 
-@media (max-width: 670px) {
+@media (max-width: 890px) {
+
+    .message {
+        padding-top: 175px;
+        padding-left: var(--spacing-base);
+        padding-bottom: 175px;
+        padding-right: var(--spacing-base);
+    }
 
     .message__title {
         font-size: var(--text-xl);
