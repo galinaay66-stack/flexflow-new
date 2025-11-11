@@ -1,0 +1,47 @@
+/* 404 страница */
+.message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 172px 427px;
+}
+
+.message__content {
+    width: 546px;
+    height: 444px;
+}
+
+.message__images {
+    display: flex;
+    justify-content: center;
+}
+
+.message__title {
+    text-align: center;
+    font-size: var(--text-2xl);
+    font-weight: var(--font-medium);
+    line-height: var(--line-height-2xl);
+    padding-bottom: var(--spacing-sm);
+}
+
+.message__description {
+    text-align: center;
+    font-size: var(--text-base);
+    line-height: var(--line-height-base);
+    padding-bottom: var(--spacing-lg);
+}
+
+.message__actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 670px) {
+
+    .message__title {
+        font-size: var(--text-xl);
+        line-height: var(--line-height-xl);
+    }
+    
+}
